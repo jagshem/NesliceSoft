@@ -1,0 +1,61 @@
+@keyframes rotateBall {
+    0%{
+    transform: rotate(0deg);
+    scale: 1;
+    }
+
+    50% {
+        scale: 0.7;
+    }
+
+    100% {
+        transform: rotate(359deg);
+        scale: 1;
+    }
+
+}
+
+.svg {
+    width: 100px;
+    height: 120px;
+}
+
+
+.main-grup {
+    transform-origin: 50% 50%;
+    animation: rotateBall 1s infinite cubic-bezier(0, 0.0, 1, 1);
+}
+
+.grup {
+    transform-origin: 50% 50%;
+    transform: translate(30px, 30px);
+}
+
+.grup1 {
+    rotate: 0deg;
+}
+
+.grup2 {
+    rotate: -120deg;
+}
+
+.grup3 {
+    rotate: -240deg;
+}
+
+
+.elips {
+}
+
+.que {
+    transform: translate(-22px, 6px);
+    position: absolute;
+}
+
+.obj-ball {
+    /*transform: rotate(40deg)*/
+    /*animation: rotateBall 2s infinite ;*/
+}
+
+
+
